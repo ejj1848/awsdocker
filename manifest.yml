@@ -1,0 +1,7 @@
+---
+applications:
+- name: dockeraws       # A default name for Cloud Foundry to give your app
+  memory: 64M         # The ammount of RAM required for each instance
+  disk_quota: 256M    # How much disk space the application needs
+  random-route: true  # If set to false, Cloud Foundry will use the name above
+  
